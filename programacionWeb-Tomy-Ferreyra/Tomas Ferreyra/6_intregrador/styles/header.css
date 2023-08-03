@@ -1,0 +1,40 @@
+header .logo {
+  align-items: center;
+  border-radius: 25%;
+  width: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 0, 48);
+  color: white;
+  padding: 10px 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  font-family: 'Pirata One', cursive;
+  font-size: 30px;
+
+}
+.insta{
+  font-size: 30px;
+
+}
+.navBar a{
+  transition: all 100ms; 
+}
+
+.navBar a:hover{
+  color: pink;
+  /* padding-bottom: 2px; */
+/*   position: relative; */
+ /*  bottom: 2px; */
+  border-bottom: 3px pink solid;
+  
+
+}
